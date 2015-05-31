@@ -1,0 +1,23 @@
+**** Page Dividers ****
+
+Default is:
+
+<hr /> or <hr>
+
+Double Line:
+
+<hr class="hr-double" />
+
+Fade Divider:
+
+<hr class="hr-fade" />
+
+Top Link Divider:
+
+<div class="hr-top"><a class="toplink" href="#">Top</a></div>
+
+Heading Divider:
+
+<div class="hr-heading-box">
+<div class="hr-heading">Heading Divider</div>
+</div>

@@ -1,0 +1,28 @@
+**** Button  ****
+
+
+Buttons in input groups are a bit different and require one extra level of nesting. Instead of class="input-group-addon", you’ll need to use class="input-group-btn" to wrap the buttons. This is required due to default browser styles that cannot be overridden.
+
+* Button to the Left of Input *
+
+<div class="input-group">
+<div class="input-group-btn"><button class="btn" type="button">Go!</button></div>
+<p><input class="form-control" type="text"></p>
+</div>
+
+* Button to the Right of Input *
+
+<div class="input-group">
+<p><input class="form-control" type="text"></p>
+<div class="input-group-btn"><button class="btn" type="button">Go!</button></div>
+</div>
+
+
+**** Add a Colour Button ****
+
+Simply add a class to the button like this example for a green button:
+
+<div class="input-group">
+<p><input class="form-control" type="text"></p>
+<div class="input-group-btn"><button class="btn green" type="button">Go!</button></div>
+</div>

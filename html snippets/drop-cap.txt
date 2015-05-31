@@ -1,0 +1,9 @@
+**** Drop Cap ****
+
+A drop cap is simply an oversized letter or number that starts off with the first letter of a word in your first paragraph. This is done by adding this at the beginning:
+
+<span class="dropcap">A</span>
+
+* Replace the "A" part with the first letter of your word like this sample:
+
+<p><span class="dropcap">M</span>oram ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit nulla at orci aliquet, vitae tincidunt lacus pretium. Ut hendrerit fermentum lorem fringilla commodo.</p>

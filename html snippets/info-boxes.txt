@@ -1,0 +1,21 @@
+**** Info Boxes ****
+
+Info boxes are simple containers for messages and other content. You add a class to the container your content is in, such as a <p> or <div>
+
+Code snippets: 
+
+<p class="info-box">Duis eget neque molestie, imperdiet mi eget, Quisque dolor mi, condimentum eu lectus quis, auctor pellentesque ligula. Ut id leo imperdiet, rhoncus justo malesuada, congue sapien.</p>
+
+
+<div class="info-box">Duis eget neque molestie, imperdiet mi eget, Quisque dolor mi, condimentum eu lectus quis, auctor pellentesque ligula. Ut id leo imperdiet, rhoncus justo malesuada, congue sapien.</div>
+
+You get the following colours:
+
+Default is: info-box
+Grey: info-box-grey
+Rust: info-box-rust
+Tan: info-box-tan
+
+For a grey info box, it's done like this:
+
+<p class="info-box-grey">Duis eget neque molestie, imperdiet mi eget, Quisque dolor mi, condimentum eu lectus quis, auctor pellentesque ligula. Ut id leo imperdiet, rhoncus justo malesuada, congue sapien.</p>

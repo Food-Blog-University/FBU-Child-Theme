@@ -1,0 +1,67 @@
+**** Accordion Drop Down ****
+
+The accordion drop down feature should be carefully created because it can easily be messed up if you accidentally delete a div container or missing something.  To begin an accordion, you need to create a box or container for each panel to go in, like this:
+
+
+<div class="accordion">
+	This is where your accordion panels go
+</div>
+
+To see the live demo:
+http://demos.styledthemes.com/pure-simple/accordion/
+
+
+
+
+
+*** This is one panel ***
+
+<h5 class="panel panel-red">YOUR TITLE</h5>
+<div class="panel panel-red ">
+<p>YOUR CONTENT HERE!</p>
+</div>
+
+Important: Copy your title in the Your Title Field and its content to its corresponding "p" tag. 
+
+
+
+*************** Adding Colour *****************
+You can also colourize your accordion by adding a colour class to the <h5> and <div> container like this: 
+
+<h5 class="panel panel-green">
+<div class="panel panel-green">
+
+
+You get the following colours:
+
+blue
+darkblue
+lightblue
+orange
+green
+red
+brown
+custom
+
+
+
+
+
+
+
+*************** Example 3 Panel Accordion ****************
+
+<div class="accordion">
+<h5 class="panel panel-red">Collapsible Group Item #1</h5>
+<div class="panel panel-red ">
+<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+</div>
+<h5 class="panel panel-lightblue">Collapsible Group Item #1</h5>
+<div class="panel panel-lightblue">
+<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+</div>
+<h5 class="panel panel-green">Collapsible Group Item #1</h5>
+<div class="panel panel-green">
+<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+</div>
+</div>

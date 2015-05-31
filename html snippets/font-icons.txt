@@ -1,0 +1,24 @@
+**** Font Icons ****
+
+When using the font icons, you can use different methods to insert an icon, in the order of preference:
+
+<i class="fa fa-desktop"></i>
+<div class="fa fa-desktop"></div>
+<span class="fa fa-desktop"></span>
+
+The font icons are based on "Font Awesome" which can be found here for reference:
+http://fortawesome.github.io/Font-Awesome/
+
+For this theme, you have the option to install a plugin called "Font Awesome Shortcodes" which lets you insert icons from the content editor.
+This theme already has the Font Awesome styles added.
+
+Pure & Simple also includes one custom icon style that you can use like I have on the front page of the live demo:
+http://demo.styledthemes.com/demos/puresimple/
+
+To achieve this result, you need to wrap your icon in a container like this:
+
+<span class="icon-circle">[fa type="desktop"]</span>
+
+or, if you are inserting the icon not as a shortcode:
+
+<span class="icon-circle"><i class="fa fa-desktop></i></span>

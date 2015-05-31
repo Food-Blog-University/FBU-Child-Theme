@@ -1,0 +1,34 @@
+**** Blockquotes ****
+
+For a quote with a quote icon to the left and a cite included:
+
+<blockquote class="quotes"><p>Nullam ac tristique ligula. Quisque sit amet ex dictum risus sodales convallis. Sed tincidunt iaculis viverra. Etiam sodales dignissim ante, a hendrerit eros vulputate quis.<cite>Parker Lorem</cite></p>
+</blockquote>
+
+This will also work without adding the class="quotes" to it:
+
+<blockquote><p>Nullam ac tristique ligula. Quisque sit amet ex dictum risus sodales convallis. Sed tincidunt iaculis viverra. Etiam sodales dignissim ante, a hendrerit eros vulputate quis.<cite>Parker Lorem</cite></p>
+</blockquote>
+
+
+For a quote style using a vertical green bar:
+
+<blockquote class="bar green"><p>Nullam ac tristique ligula. Quisque sit amet ex dictum risus sodales convallis. Sed tincidunt iaculis viverra. Etiam sodales dignissim ante, a hendrerit eros vulputate quis.<cite>Parker Lorem</cite></p>
+</blockquote>
+
+
+Available Colours for the Bar Style:
+
+green
+grey
+rust
+Tan
+
+
+For a blockquote that is off to the side, you add a class like: pull-left 
+If you want it to the right, then add a class like: pull-right
+
+
+<blockquote class="pull-left"><p>In lectus lectus, fringilla et orci in, porta sollicitudin leo. Vestibulum ullamcorper ex eros, ut eleifend nisl aliquet id. Morbi at egestas felis. Duis sit amet blandit augue.&nbsp;</p>
+</blockquote>
+

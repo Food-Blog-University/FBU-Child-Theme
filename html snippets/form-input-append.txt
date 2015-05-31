@@ -1,0 +1,20 @@
+**** Text Inputs with Append or Prepend ****
+
+
+PREPEND: This allows you to add a label or icon, before the field:
+
+<div class="input-group">
+<div class="input-group-addon">
+<i class="fa fa-user"></i>
+</div>
+<p><input class="form-control" type="text" placeholder="Username"></p>
+</div>
+
+APPEND: This allows you to add a label or icon, before the field:
+
+<div class="input-group">
+<p><input class="form-control" type="text" placeholder="Username"></p>
+<div class="input-group-addon">
+<i class="fa fa-user"></i>
+</div>
+</div>

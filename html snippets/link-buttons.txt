@@ -1,0 +1,27 @@
+**** Buttons ****
+
+For buttons used in custom forms or even turning text links into buttons, use the following classes:
+
+<a class="btn" href="#">Default button</a>
+
+
+*** For sizes ***
+
+Large: <a class="btn btn-lg" href="#">Large button</a>
+
+Default: <a class="btn" href="#">Default button</a>
+
+Small: <a class="btn btn-sm" href="#">Small button</a>
+
+Extra Small: <a class="btn btn-xs" href="#">Extra Small button</a>
+
+
+
+*** For Styles ****
+
+<a class="btn btn-outline" href="#">Outline</a> 
+<a class="btn green" href="#">Green</a> 
+<a class="btn grey" href="#">Grey</a> 
+<a class="btn tan" href="#">Tan</a> 
+<a class="btn rust" href="#">Rust</a> 
+<a class="btn link" href="#">Text Button</a></p>

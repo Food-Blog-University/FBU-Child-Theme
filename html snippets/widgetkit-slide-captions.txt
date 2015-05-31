@@ -1,0 +1,34 @@
+**** Widgetkit Slide Captions ****
+
+How you style your captions will be up to you and based on the subject matter in your photos. 
+Photos will require different caption positions, whether from the left or right, and colour
+of your text. 
+
+Font Sizing and other styles can be applied to these snippets such as italic text, font weight, etc.
+For sizing, it's best to do this in a child theme or CSS Editor plugin because you need to maintain 
+adjusted sizing for mobile devices. Please see the main theme's style.css for the widgetkit slideshow css.
+
+
+To display the caption as demo :-
+
+First Slider Caption:-
+
+<div class="caption1" style="background-color: rgba(120, 153, 147, 0.6);display: inline-block; padding: 0px 5px;">Welcome to Pure and Simple</div>
+<div class="caption2" style="font-style: italic;color: rgba(76, 83, 21, 1);"><span>and</span> Build an Amazing Website</div>
+<div class="caption3" style="color: #000;"><a href="#" class="btn rust" style="text-decoration: none;">Learn More</a></div></div>
+
+Second Slider Caption:-
+
+<div class="caption1" style="color: #ff0; margin-top:-13em;">Extensive Features</div>
+<div class="caption2" style="color: #453B3B; margin-left: 5%;">and Theme Options</div>
+<div class="caption3" style="font-style: italic;">For Flexibility</div>
+
+
+Third Slider Caption:-
+
+<div class="caption1" style="color: #ff0; margin-top:-13em;">Extensive Features</div>
+<div class="caption2" style="color: #453B3B; margin-left: 5%;">and Theme Options</div>
+<div class="caption3" style="font-style: italic;">For Flexibility</div>
+
+
+

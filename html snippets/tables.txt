@@ -1,0 +1,70 @@
+**** Table Styles ****
+
+You can do many different styles of tables with CSS and Plugins, but this theme offers a few custom styles for you. See the live demo here for a visual reference:
+
+http://demo.styledthemes.com/preferential/table-styles/
+
+
+*** Basic Table with Headings ***
+
+Add this class="table" to your <table> tag:
+
+<table class="table">
+
+
+*** Striped and Bordered Table with Headings ***
+
+Add this class="table table-bordered table-striped" to your <table> tag:
+
+<table class="table table-bordered table-striped">
+
+
+*** Bordered Table without Headings Using Column Spans ***
+Column Group (colgroup) let you colour the background of a column like you see in the demo site with the light grey background, as well size the columns. This table sample uses the class="col-xs-1" for the first column and the other class="col-xs-7". To see more about these classes, refer to the Bootstrap columns here:
+
+http://getbootstrap.com/css/#grid
+
+
+*** Sample Table for the above ***
+
+<table class="table table-bordered"><colgroup> <col class="col-xs-1" style="background-color: #eff0f0;" /> <col class="col-xs-7" /> </colgroup>
+<tbody>
+<tr>
+<td>HTML</td>
+<td>In pulvinar erat quis placerat aliquam. Aliquam sed urna massa. Donec eleifend nisl at eros tempus.</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>Vestibulum pharetra molestie justo, eget venenatis nulla dictum in. Ut in augue nibh.</td>
+</tr>
+<tr>
+<td>CSS</td>
+<td>Nam nec varius eros. Ut nec consectetur nisl. Pellentesque eu gravida eros. Praesent pellentesque tellus.</td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td>Cras aliquam ipsum tellus, ac mattis ligula ullamcorper luctus.</td>
+</tr>
+</tbody>
+</table>
+
+
+*** Table with Coloured Header ***
+This sample snippet also uses a colgroup method to size the columns.
+
+<table class="table table-bordered table-grey"><colgroup> <col class="col-xs-1" /> <col class="col-xs-7" /></colgroup>
+
+*** Adding Colours to your Header ***
+
+Just like you see in the above table class, table-grey makes the header background grey. You can use these other colour classes:
+
+table-darkblue
+table-blue
+table-lightblue
+table-orange
+table-green
+table-red
+table-brown
+table-custom
+
+

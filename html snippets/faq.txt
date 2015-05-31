@@ -1,0 +1,39 @@
+**** FAQ ****
+
+You create an FAQ page like the live demo site here:
+
+http://demo.styledthemes.com/preferential/faq/
+
+
+**** One FAQ ***
+
+<div class="pref-faq-box">
+<div class="pref-faq-header">
+<h4 class="pref-faq-question"><small class="pref-faq-label">Question:</small> Lorem ipsum dolor, adipisicing elit?</h4>
+</div>
+<div class="pref-faq-answer">
+<p>Tipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+</div>
+</div>
+
+*** Adding Colour to the Question ***
+
+Add a class "green" to the <small> tag like this:
+
+<small class="pref-faq-label green">Question:</small>
+
+
+
+
+Available Colours are:
+
+Default is dark grey
+grey
+darkblue
+blue
+lightblue
+orange
+green
+red
+brown
+custom

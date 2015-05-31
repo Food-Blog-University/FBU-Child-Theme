@@ -1,0 +1,28 @@
+**** Widget Styles  ****
+
+The available widget styles are available when using the plugin "Widget CSS Classes"
+
+(1) widgetbar
+(2) widgetbox
+
+Available Colours
+
+(1) green
+(2) tan
+(3) rust
+(4) grey
+(5) darkgrey
+
+Combine the Styles with Colours
+
+widgetbar green
+widgetbar tan
+widgetbar rust
+widgetbar grey
+widgetbar darkgrey
+
+widgetbox green
+widgetbar tan
+widgetbox rust
+widgetbox grey
+widgetbox darkgrey
