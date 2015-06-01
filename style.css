@@ -10,3 +10,10 @@ Template: puresimple
 
 
 /* Add your own styles below */
+.fbu-custom-image {
+    display: inline-block;
+    background: url(http://foodbloguniversity.com/wp-content/uploads/2015/05/FBU-602x250.png) no-repeat;
+    background: url(http://foodbloguniversity.com/wp-content/uploads/2015/05/fbu-svg.svg), none;
+    width: 602px;
+    height: 250px;
+}
