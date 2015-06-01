@@ -14,7 +14,7 @@
             <?php if ( get_option( 'puresimple_logo' ) ) : ?>
 
                 <div class="logo fade-logo">
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><img class="fbu-logo" src="<?php echo get_option( 'puresimple_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?>"></a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><img class="fbu-logo" src="<?php echo get_option( 'puresimple_logo' ); ?>" <?php echo tevkori_get_srcset_string( 102, 'medium' ); ?> alt="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?>"></a>
                 </div>
 
             <?php elseif ( get_bloginfo( 'description' ) || get_bloginfo( 'title' ) ) : ?>
