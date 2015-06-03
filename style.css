@@ -23,5 +23,14 @@ Template: puresimple
 .widget-title {
     font-family: 'Allura', cursive;
     font-size: 2.5rem;
-    color: #0066cc;
+    color: #0066cc !important;
+}
+#content {
+    padding-bottom: 0;
+}
+#featured-bottom-group {
+    padding-top: 0;
+}
+.entry-title, .entry-title a {
+    display: none;
 }
