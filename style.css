@@ -10,10 +10,18 @@ Template: puresimple
 
 
 /* Add your own styles below */
+/*Import Google Font*/
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
 .fbu-custom-image {
     display: inline-block;
     background: url(http://foodbloguniversity.com/wp-content/uploads/2015/05/FBU-602x250.png) no-repeat;
     background: url(http://foodbloguniversity.com/wp-content/uploads/2015/05/fbu-svg.svg), none;
     width: 602px;
     height: 250px;
+}
+.widget-title {
+    font-family: 'Allura', cursive;
+    font-size: 2.5rem;
+    color: #0066cc;
 }
